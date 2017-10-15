@@ -17,7 +17,7 @@ namespace DeleteLogFiles
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new Delete_Log_Files()
             };
             ServiceBase.Run(ServicesToRun);
         }

@@ -1,6 +1,6 @@
 ﻿namespace DeleteLogFiles
 {
-    partial class Service1
+    partial class Delete_Log_Files
     {
         /// <summary> 
         /// Erforderliche Designervariable.
@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // Delete_Log_Files
+            // 
+            this.ServiceName = "Delete_Log_Files";
+
         }
 
         #endregion
