@@ -1,2 +1,0 @@
-﻿//Je eine Dateierweiterung pro Zeile
-log

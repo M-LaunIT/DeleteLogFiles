@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>DeleteLogFiles.Configurator</AssemblyName>
+    <RootNamespace>DeleteLogFiles.Configurator</RootNamespace>
+    <ApplicationIcon>..\DeleteLogFiles\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\DeleteLogFiles\favicon.ico" Link="favicon.ico" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Assets\logo_180x180.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
